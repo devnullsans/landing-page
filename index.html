@@ -12,14 +12,15 @@
 
 <body>
 	<header>
-		<div class="py-4 d-flex justify-content-end" style="background-color: #1b50a3;">
+
+		<div class="py-1 d-flex justify-content-end" style="background-color: #1b50a3;">
 			<div class="px-1">
 				<i class="bi bi-envelope text-light"></i>
-				<a href="mailto:info@dreamsinternational.in">info@dreamsinternational.in</a>
+				<a class="text-light" href="mailto:info@dreamsinternational.in">info@dreamsinternational.in</a>
 			</div>
 			<div class="px-1 d-none d-sm-inline dropdown">
 				<i class="bi bi-share text-light"></i>
-				<a class="dropdown-toggle" data-bs-toggle="dropdown" href="#">follow us</a>
+				<a class="dropdown-toggle text-light" data-bs-toggle="dropdown" href="#">follow us</a>
 				<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="#">Twitter</a></li>
 					<li><a class="dropdown-item" href="#">Instagram</a></li>
@@ -27,17 +28,20 @@
 				</ul>
 			</div>
 		</div>
-		<div class="mx-4 my-2">
-			<nav class="nav navbar-light bg-light justify-content-between">
+
+		<div class="m-2">
+			<nav class="nav nav-pill navbar-light bg-light justify-content-between align-items-center">
 				<a class="navbar-brand" href="#">
-					<img src="res/logo.png" alt="Logo" width="86" height="34">
+					<img src="res/logo.png" alt="Logo" width="185" height="44">
 				</a>
-				<a class="d-none d-md-inline nav-link active" href="#">Home</a>
-				<a class="d-none d-md-inline nav-link" href="#">About</a>
-				<a class="d-none d-md-inline nav-link" href="#">Services</a>
-				<a class="d-none d-md-inline nav-link" href="#">Projects</a>
-				<a class="d-none d-md-inline nav-link" href="#">Blog</a>
-				<a class="d-none d-md-inline nav-link" href="#">Contact Us</a>
+				  <a class="d-none d-md-inline nav-items active" aria-current="page" href="#">Home</a>
+					<a class="d-none d-md-inline nav-items" href="#">About</a>
+					<a class="d-none d-md-inline nav-items" href="#">Services</a>
+					<a class="d-none d-md-inline nav-items" href="#">Projects</a>
+					
+					<a class="d-none d-md-inline nav-items" href="#">Blog</a>
+					<a class="d-none d-md-inline nav-items" href="#">Contact Us</a>
+				</ul>
 				<div>
 					<div class="d-inline d-md-none">
 						<button class="navbar-toggler" type="button" data-toggle="collapse">
@@ -58,13 +62,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="res/pic1.jpg" class="d-block w-100" alt="Slide 1">
+				<img src="res/pic1.jpg" class="d-block w-100" height="400" alt="Slide 1">
 			</div>
 			<div class="carousel-item">
-				<img src="res/pic2.jpg" class="d-block w-100" alt="Slide 2">
+				<img src="res/pic2.jpg" class="d-block w-100" height="400" alt="Slide 2">
 			</div>
 			<div class="carousel-item">
-				<img src="res/pic3.jpg" class="d-block w-100" alt="Slide 3">
+				<img src="res/pic3.jpg" class="d-block w-100" height="400" alt="Slide 3">
 			</div>
 		</div>
 	</div>
@@ -167,19 +171,19 @@
 
 	<section class="container my-5">
 		<div class="row">
-			<div class="col-lg p-0 bg-primary">
+			<div class="col-lg p-0 d-flex flex-column justify-content-center bg-primary">
 				<img class="" src="res/img2.png" />
 				<button class="container-fluid btn btn-outline-light">Social Media Marketing</button>
 			</div>
-			<div class="col-lg p-0 bg-info">
+			<div class="col-lg p-0 d-flex flex-column justify-content-center bg-info">
 				<img class="" src="res/img3.png" />
 				<button class="container-fluid btn btn-outline-light">Email Marketing</button>
 			</div>
-			<div class="col-lg p-0 bg-success">
+			<div class="col-lg p-0 d-flex flex-column justify-content-center bg-success">
 				<img class="" src="res/img4.png" />
 				<button class="container-fluid btn btn-outline-light">Google Analytics</button>
 			</div>
-			<div class="col-lg p-0 bg-dark">
+			<div class="col-lg p-0 d-flex flex-column justify-content-center bg-dark">
 				<img class="" src="res/img5.png" />
 				<button class="container-fluid btn btn-outline-light">Google Adwords</button>
 			</div>
@@ -199,10 +203,11 @@
 
 	<div id="carouselExampleIndicators1" class="carousel slide">
 		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="bg-dark active"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+				class="bg-dark active"></button>
 			<button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" class="bg-dark"></button>
 		</div>
-		<div class="carousel-inner py-4">
+		<div class="container carousel-inner py-4">
 			<div class="container carousel-item active">
 				<div class="row">
 					<div class="col"><img class="img-fluid" src="res/cmp1.png" /></div>
@@ -225,6 +230,103 @@
 			</div>
 		</div>
 	</div>
+
+	<section class="container-fluid bg-success">
+		<div id="carouselExampleIndicators2" class="container carousel slide">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+					class="bg-light active"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+					class="bg-light"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+					class="bg-light"></button>
+			</div>
+			<div class="pt-5 carousel-inner" style="height: 30vh;">
+				<div class="container carousel-item active">
+					<div class="row">
+						<div class="col-8">
+							<p class="fs-4">Mr. Ankit is very innovative and Dreams International is a uniqe company which gives
+								immense satisfaction for the customer, as well as it helps us to make our deams into reality</p>
+						</div>
+						<div class="col-4">
+							<div class="d-flex flex-row">
+								<div class="me-3">
+									<img class="rounded" src="" />
+								</div>
+								<div class="col">
+									<p class="fs-4">Mr. Tushar</p>
+									<p class="fs-6">Spiritual Healer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container carousel-item">
+					<div class="row">
+						<div class="col-8">
+							<p class="fs-4">Very good job. Happy to having connected to Dreams Intl and very satisfied with my website
+								Be Fit Be You designed by your team. thanks</p>
+						</div>
+						<div class="col-4">
+							<div class="d-flex flex-row">
+								<div class="me-3">
+									<img class="rounded" src="res/ppl1.jpg" />
+								</div>
+								<div class="col">
+									<p class="fs-4">Chitra Kulkarni</p>
+									<p class="fs-6">Fitness Guru</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container carousel-item">
+					<div class="row">
+						<div class="col-8">
+							<p class="fs-4">Entire experience with Ankit and Dream International team was fantastic. We just narrated
+								our concepts and message we want to deliver through our site and they did the rest. The design and page
+								layouts are smartly done. We wish Ankit and his all the best for their future endeavors..!!</p>
+						</div>
+						<div class="col-4">
+							<div class="d-flex flex-row">
+								<div class="me-3">
+									<img class="rounded" src="res/ppl2.jpg" />
+								</div>
+								<div class="col">
+									<p class="fs-4">Prasad Kulkarni</p>
+									<p class="fs-6">Be fit Be You</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid bg-dark">
+
+		<section class="container py-5">
+			<div class="row">
+				<div class="col-lg p-0 d-flex flex-column justify-content-center align-items-center">
+					<i class="bi bi-telephone-fill mb-2 text-light"></i>
+					<h5 class="text-light"><a class="text-light" href="#">+91 758 883 3768</a></h3>
+					<p class="fs-6 text-muted">Give us a call</p>
+				</div>
+				<div class="col-lg p-0 d-flex flex-column justify-content-center align-items-center">
+					<i class="bi bi-envelope-fill mb-2 text-light"></i>
+					<h5 class="text-light"><a class="text-light" href="#">info@dreamsinternational.in</a></h3>
+					<p class="fs-6 text-muted">Send us a message</p>
+				</div>
+				<div class="col-lg p-0 d-flex flex-column justify-content-center align-items-center">
+					<i class="bi bi-bell-fill mb-2 text-light"></i>
+					<h5 class="text-light"><a class="text-light" href="#">Request a free quote</a></h3>
+					<p class="fs-6 text-muted">We would love to work with you!</p>
+				</div>
+			</div>
+		</section>
+
+	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
